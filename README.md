@@ -10,5 +10,7 @@ The python code use some libraries: Colorama,  Numpy, Pillow, Pymupdf, Os-sys an
 An executable file .exe was generated in de Windows system using Pyinstaller. You can see the terminal commands used. 
 In Linux a binary file was generated, This file is unfortunately to large to be stored in this repository. 
 If you have questions or suggestions, feel free to contact me. Thank you for your attention. 
+
 Guido Cattani
+
 guidocattani@gmail.com
