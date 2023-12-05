@@ -1,15 +1,16 @@
 # EasyPDF_AudioScraper
-This repository contains a program to analyse a PDF-file containing toneaudiogram and speechaudiogram graphs and to make a description of the hearing loss. 
-Text from the PDF is analysed to describe de test and the toneaudiometry results. Patient information are retrieved. Test results are analysed to classify the type and extent of the hearing loss.
-The speechaudiogram is analysed reading the colored (red and blue) pixels of the psychometric curve. The maximum score, the correspondent speech stimulus level and the Speech Recognition Thresholds are calculated. 
-Because of the graphic method the results are sometimes not perfect, but reasonable adequate. 
+This repository contains a program to analyse a PDF-file showing toneaudiogram and speechaudiogram graphs and to make a description of the hearing loss. 
+
+Text from the PDF is analysed to describe the toneaudiometry results and the test condition. Patient information are also retrieved from the text. Test results are analysed to classify the type and extent of the hearing loss.
+The speechaudiogram is analysed reading the colored (red and blue) pixels of the psychometric curve. The maximum score, the associated speech stimulus level and the Speech Recognition Thresholds (SRT) are calculated. Because of the graphic method, the results are sometimes not perfect, but reasonable adequate. 
+The code is optimised for the EasyViewer layout used by Adelante Audiology & Communication (Hoensbroek, The Netherlands). 
 In addition to the "readme" and "licence", the repository contains 4 files. 
-The code was written and debugged in Jupyter Lab, generating the .ipynb file. 
-A .py script was downloaded from Jupyter Lab and tested, first in a Linux Mint 20 (64 bits) system and secondly in Windows 10 (64 bits). 
-The python code use some libraries: Colorama,  Numpy, Pillow, Pymupdf, Os-sys and Regex.
-An executable file .exe was generated in de Windows system using Pyinstaller. You can see the terminal commands used. 
-In Linux a binary file was generated, This file is unfortunately to large to be stored in this repository. 
-If you have questions or suggestions, feel free to contact me. Thank you for your attention. 
+The code was first written and debugged in Jupyter Lab, generating the .ipynb file. 
+A .py script was downloaded from Jupyter Lab and tested, first in a Linux Mint 21 (64 bits) system and secondly in a Windows 10 (64 bits) system. 
+An executable file .exe was generated in de Windows system using Pyinstaller. You can see the terminal commands used in the text file. The Python code use some libraries: Colorama, Numpy, Pillow, Pymupdf, Os-sys and Regex. You have to install these libraries in your computer (along Python) to run the Python code or to generate an executable.
+In Linux a binary file was generated,but is unfortunately too large to be stored in this repository. 
+The application opens a screen and asks for the location of the file to analyse. The results are showed on screen and saved in the user’s download location. 
+If you have questions or suggestions, feel free to contact me. Thank you for your attention and consideration. 
 
 Guido Cattani
 
