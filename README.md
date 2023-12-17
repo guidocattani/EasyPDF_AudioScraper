@@ -9,7 +9,7 @@ The code was first written and debugged in Jupyter Lab, generating the .ipynb fi
 A .py script was downloaded from Jupyter Lab and tested, first in a Linux Mint 21 (64 bits) system and secondly in a Windows 10 (64 bits) system. 
 An executable file .exe was generated in de Windows system using Pyinstaller. You can see the terminal commands used in the text file, pyinstaller_command.txt. The Python code uses some libraries: Colorama, Numpy, Pillow, Pymupdf, Os-sys and Regex. You have to install these libraries in your computer (along Python) to run the Python code or to generate an executable.
 In Linux a binary file was successfully generated, but is unfortunately too large to be stored in this repository. 
-The application opens a screen and asks for the location of the file to analyse. The results are showed on screen and saved in the user’s download location. 
+The application EasyPDF_AudioScraper_v1.exe opens a screen and asks for the location of the file to analyse. The results are showed on screen and saved in the user’s download location. 
 If you have questions or suggestions, feel free to contact me. Thank you for your attention and consideration. 
 
 Guido Cattani
