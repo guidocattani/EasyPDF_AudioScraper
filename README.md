@@ -1,8 +1,8 @@
 # EasyPDF_AudioScraper
-This repository contains a program to analyse a PDF-file showing toneaudiogram and speechaudiogram graphs and to make a description of the hearing loss. 
+This repository contains a program to analyse a PDF-file showing tone audiogram and speech audiogram graphs and to make a description of the hearing loss. 
 
-Text from the PDF is analysed to describe the toneaudiometry results and the test condition. Patient information are also retrieved from the text. Test results are analysed to classify the type and extent of the hearing loss.
-The speechaudiogram is analysed reading the colored (red and blue) pixels of the psychometric curve. The maximum score, the associated speech stimulus level and the Speech Recognition Thresholds (SRT) are calculated. Because of the graphic method, the results are sometimes not perfect, but reasonable adequate. 
+Text from the PDF is analysed to describe the tone audiometry results and the test condition. Patient information are also retrieved from the text. Test results are analysed to classify the type and extent of the hearing loss.
+The speech audiogram is analysed reading the colored (red and blue) pixels of the psychometric curve. The maximum score, the associated speech stimulus level and the Speech Recognition Thresholds (SRT) are calculated. Because of the graphic method, the results are sometimes not perfect, but reasonable adequate. 
 The code is optimised for the EasyViewer layout used by Adelante Audiology & Communication (Hoensbroek, The Netherlands). 
 In addition to the "readme" and "licence", the repository contains 4 files. 
 The code was first written and debugged in Jupyter Lab, generating the .ipynb file. 
