@@ -1,0 +1,5 @@
+Terminal command to generate the executable
+
+For windows systems pyinstaller -D -F -n EasyPDF_AudioScraper_v2 -c "C:\user\Python_Programs\Easy_Audiometry_PDF_Scraper_v2.py"  
+
+For Linux systems pyinstaller -D -F -n EasyPDF_AudioScraper_v2_L -c "/home/user/Python_Programs/Easy_Audiometry_PDF_Scraper_v2.py"
